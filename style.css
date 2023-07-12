@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    background-color: rgba(107, 104, 104, 0.37);
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    padding-left: 20px;
+}
+.menus ul {
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-style: italic;
+    font-size: 24px;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('./asset/image/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
